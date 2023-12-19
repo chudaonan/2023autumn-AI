@@ -1,0 +1,19 @@
+考虑如下两个推理问题：
+（1）: 
+1. Every Austinite who is not conservative loves some armadillo.
+2. Anyone who wears maroon-and-white shirts is an Aggie.
+3. Every Aggie loves every dog.
+4. Nobody who loves every dog loves any armadillo.
+5. Clem is an Austinite, and Clem wears maroon-and-white shirts.
+6. (Conclusion) Is there a conservative Austinite?
+
+（2）:
+1. Anyone who buys carrots by the bushel owns either a rabbit or a grocery store.
+2. Every dog chases some rabbit.
+3. Mary buys carrots by the bushel.
+4. Anyone who owns a rabbit hates anything that chases any rabbit.
+5. John owns a dog.
+6. Someone who hates something owned by another person will not date that person.
+7. (Conclusion) If Mary does not own a grocery store, she will not date John.
+
+编写基于unit preference算法的一阶逻辑推理器，快速解决上述证明问题，并与two-pointer method算法进行对比。

@@ -301,7 +301,7 @@ clauses = {
     Clause({Literal("Austinite", [Variable("x")], False), Literal("conservative", [Variable("x")], True),
             Literal("loves", [Variable("x"), Constant("armadillo")], False)}),
     Clause({Literal("wears", [Variable("x"), Constant("maroon-and-white shirts")], False),
-            Literal("Aggie", [Variable("x")], False)}),
+            Literal("Aggie", [Variable("x")], False), Literal("conservative", [Variable("x")], True)}), # 在这里添加了一个Literal("conservative", [Variable("x")], True)
     Clause({Literal("Aggie", [Variable("x")], False), Literal("loves", [Variable("x"), Variable("y")], False),
             Literal("dog", [Variable("y")], False)}),
     Clause({Literal("loves", [Variable("x"), Variable("y")], False), Literal("dog", [Variable("y")], False),
